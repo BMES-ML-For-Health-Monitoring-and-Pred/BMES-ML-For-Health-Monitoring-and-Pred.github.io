@@ -22,8 +22,8 @@ function App() {
           Website in Development
         </button>
         <p>
-  <a href="form.kwohealth.com">Sign Up to Test kwo!</a>
-</p>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScyCtukB3gY_rllMPNBnLejYX4P67auZHlsHK2F8TvXtfOmVg/viewform">Sign Up to Test kwo!</a>
+        </p>
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
