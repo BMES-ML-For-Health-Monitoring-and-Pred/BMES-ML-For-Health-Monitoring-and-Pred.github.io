@@ -22,7 +22,7 @@ function App() {
           Website in Development
         </button>
         <p>
-  <a href="https://form.kwohealth.com">Sign Up to Test kwo!</a>
+  <a href="form.kwohealth.com">Sign Up to Test kwo!</a>
 </p>
       </div>
       <p className="read-the-docs">
