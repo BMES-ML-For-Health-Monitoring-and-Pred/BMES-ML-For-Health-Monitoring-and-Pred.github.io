@@ -1,18 +1,17 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import logo from './assets/file.svg'
 import './App.css'
-//https://docs.google.com/forms/d/e/1FAIpQLScyCtukB3gY_rllMPNBnLejYX4P67auZHlsHK2F8TvXtfOmVg/viewform
+
 function App() {
   return (
     <>
       <div className="logos">
-        <a href="https://vite.dev" target="_blank" rel="noopener noreferrer">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
+        <a href="https://kwohealth.com">
+          <img src={logo} className="logo" alt="kwo logo" />
         </a>
-        <a href="https://react.dev" target="_blank" rel="noopener noreferrer">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        
       </div>
 
       <h1>kwo health</h1>
@@ -27,8 +26,8 @@ function App() {
       </div>
 
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+  <a href="mailto:admin@kwohealth.com">Contact Us</a>
+</p>
     </>
   )
 }
