@@ -4,27 +4,28 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  //const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
+      <div className="logos">
+        <a href="https://vite.dev" target="_blank" rel="noopener noreferrer">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
-        <a href="https://react.dev" target="_blank">
+        <a href="https://react.dev" target="_blank" rel="noopener noreferrer">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
+
       <h1>kwo health</h1>
+
       <div className="card">
-        <button>
-          Website in Development
+        <button 
+          onClick={() => window.open("https://docs.google.com/forms/d/e/1FAIpQLScyCtukB3gY_rllMPNBnLejYX4P67auZHlsHK2F8TvXtfOmVg/viewform", "_blank")}
+        >
+          Sign Up to Test kwo!
         </button>
-        <p>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLScyCtukB3gY_rllMPNBnLejYX4P67auZHlsHK2F8TvXtfOmVg/viewform">Sign Up to Test kwo!</a>
-        </p>
+        <p className="development-text">Website in Development</p>
       </div>
+
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
