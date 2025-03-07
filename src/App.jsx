@@ -1,12 +1,12 @@
 import { useState } from 'react'
-import logo from './assets/file.svg'
+import logo from './assets/file.png'
 import './App.css'
 
 function App() {
   return (
     <>
       <div className="logos">
-        <a href="https://kwohealth.com">
+        <a href="https://www.kwohealth.com">
           <img src={logo} className="logo" alt="kwo logo" />
         </a>
         
