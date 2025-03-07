@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-
+//https://docs.google.com/forms/d/e/1FAIpQLScyCtukB3gY_rllMPNBnLejYX4P67auZHlsHK2F8TvXtfOmVg/viewform
 function App() {
   return (
     <>
@@ -19,7 +19,7 @@ function App() {
 
       <div className="card">
         <button 
-          onClick={() => window.open("https://docs.google.com/forms/d/e/1FAIpQLScyCtukB3gY_rllMPNBnLejYX4P67auZHlsHK2F8TvXtfOmVg/viewform", "_blank")}
+          onClick={() => window.open("http://form.kwohealth.com", "_blank")}
         >
           Sign Up to Test kwo!
         </button>
